@@ -7,7 +7,7 @@ import java.util.List;
 public class Datasource {
 
     public static final String DB_NAME = "music.db";
-    public static final String CONNECTION_STRING = "jdbc:sqlite:D:" + DB_NAME;
+    public static final String CONNECTION_STRING = "jdbc:sqlite:" + DB_NAME;
     public static final String TABLE_ALBUMS = "albums";
     public static final String COLUMN_ALBUM_ID= "_id";
     public static final String COLUMN_ALBUM_NAME = "name";
@@ -45,13 +45,11 @@ public class Datasource {
     }
 
     public List<Artist> queryArtist(){
-        Statement statement = null;
-        ResultSet result = null;
 
-        try{
+        try(Statement statement = connection.createStatement();
+           ResultSet result = statement.executeQuery("SELECT * FROM " + TABLE_ARTISTS)){
 
-            statement = connection.createStatement();
-            result = statement.executeQuery("SELECT * FROM " + TABLE_ARTISTS);
+
 
             List<Artist> artists = new ArrayList<>();
             while(result.next()){
@@ -66,22 +64,8 @@ public class Datasource {
         }catch (SQLException e){
             System.out.println("Query failed: " + e.getMessage());
             return null;
-        }finally {
-            try{
-                if(result != null){
-                    result.close();
-                }
-            }catch (SQLException e){
-                System.out.println("Error closing ResultSet: " + e.getMessage());
-            }
-            try{
-                if(statement != null){
-                    statement.close();
-                }
-            }catch (SQLException e){
-                System.out.println("Error closing Statement: " + e.getMessage());
-            }
         }
+
     }
 
 }
