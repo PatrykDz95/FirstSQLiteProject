@@ -5,6 +5,7 @@ import com.company.model.Datasource;
 import com.company.model.SongArtist;
 
 import java.util.List;
+import java.util.Scanner;
 
 public class Main {
 
@@ -45,10 +46,26 @@ public class Main {
 
         datasource.querySongsMetadata();
 
-        int count = datasource.getCount(datasource.TABLE_SONGS);
+        int count = datasource.getCount(Datasource.TABLE_SONGS);
         System.out.println("Number of songs is: " + count);
 
         datasource.createViewForSongArtist();
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter a song title");
+        String title = scanner.nextLine();
+
+        songArtist = datasource.querySongInfoView("Go Your Own Way");
+        if(songArtist.isEmpty()){
+            System.out.println("Couldn't find the artist for the song");
+            return;
+        }
+
+        for(SongArtist artist : songArtist){
+            System.out.println("FROM VIEW - Artist name = " + artist.getArtistName() +
+                   " Track number = " + artist.getTrack());
+        }
+
         datasource.close();
 
     }
