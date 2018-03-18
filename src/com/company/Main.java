@@ -51,20 +51,22 @@ public class Main {
 
         datasource.createViewForSongArtist();
 
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter a song title");
-        String title = scanner.nextLine();
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.println("Enter a song title");
+//        String title = scanner.nextLine();
 
-        songArtist = datasource.querySongInfoView("Go Your Own Way");
-        if(songArtist.isEmpty()){
-            System.out.println("Couldn't find the artist for the song");
-            return;
-        }
+//        songArtist = datasource.querySongInfoView("Go Your Own Way");
+//        if(songArtist.isEmpty()){
+//            System.out.println("Couldn't find the artist for the song");
+//            return;
+//        }
+//
+//        for(SongArtist artist : songArtist){
+//            System.out.println("FROM VIEW - Artist name = " + artist.getArtistName() +
+//                   " Track number = " + artist.getTrack());
+//        }
 
-        for(SongArtist artist : songArtist){
-            System.out.println("FROM VIEW - Artist name = " + artist.getArtistName() +
-                   " Track number = " + artist.getTrack());
-        }
+        datasource.insertSong("Bird Dog", "Everly Brothers", "All-Time Greates Hits",7);
 
         datasource.close();
 

@@ -12,11 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-11">
-              <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+            <state relative-caret-position="215">
+              <caret line="80" column="0" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -24,17 +24,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Datasource.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Datasource.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/model/Datasource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="74" column="4" lean-forward="false" selection-start-line="74" selection-start-column="4" selection-end-line="74" selection-end-column="4" />
+            <state relative-caret-position="118">
+              <caret line="380" column="32" lean-forward="false" selection-start-line="380" selection-start-column="32" selection-end-line="380" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1521054675212" expanded="true" signature="3250:4033" ph="CREATE VIEW IF... " />
-                <marker date="1521054675212" expanded="true" signature="4121:4277" ph="SELECT name,... artist_list" />
-                <marker date="1521054675212" expanded="true" signature="8616:8630" ph="SELECT * FRO... songs" />
-                <marker date="1521054675212" expanded="true" signature="9400:9431" ph="SELECT COUNT... " />
+                <marker date="1521406867398" expanded="true" signature="3250:4033" ph="CREATE VIEW IF... " />
+                <marker date="1521406867398" expanded="true" signature="4117:4273" ph="SELECT name,... artist_list" />
+                <marker date="1521406867398" expanded="true" signature="4326:4409" ph="INSERT INTO artists... " />
+                <marker date="1521406867398" expanded="true" signature="4461:4574" ph="INSERT INTO albums... " />
+                <marker date="1521406867398" expanded="true" signature="4625:4722" ph="INSERT INTO songs... " />
+                <marker date="1521406867398" expanded="true" signature="4625:4761" ph="INSERT INTO songs... " />
+                <marker date="1521406867398" expanded="true" signature="4625:4777" ph="INSERT INTO songs... " />
+                <marker date="1521406867398" expanded="true" signature="4625:4778" ph="INSERT INTO songs... " />
+                <marker date="1521406867398" expanded="true" signature="4828:4934" ph="SELECT _id F... " />
+                <marker date="1521406867398" expanded="true" signature="4984:5087" ph="SELECT _id F... " />
+                <marker date="1521406867398" expanded="true" signature="10553:10567" ph="SELECT * FRO... songs" />
+                <marker date="1521406867398" expanded="true" signature="11337:11368" ph="SELECT COUNT... " />
               </folding>
             </state>
           </provider>
@@ -168,10 +176,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="220" />
-    <option name="y" value="59" />
+    <option name="x" value="106" />
+    <option name="y" value="65" />
     <option name="width" value="1232" />
-    <option name="height" value="681" />
+    <option name="height" value="676" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -188,8 +196,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -254,14 +262,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TestDB" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -333,12 +341,14 @@
       <workItem from="1520715890834" duration="2097000" />
       <workItem from="1520791283990" duration="7038000" />
       <workItem from="1520882346091" duration="3852000" />
-      <workItem from="1521046888253" duration="6095000" />
+      <workItem from="1521046888253" duration="6284000" />
+      <workItem from="1521323359011" duration="41000" />
+      <workItem from="1521399607022" duration="7211000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27806000" />
+    <option name="totallyTimeSpent" value="35247000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -350,7 +360,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="220" y="59" width="1232" height="681" extended-state="0" />
+    <frame x="106" y="65" width="1232" height="676" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -361,25 +371,25 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2611111" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3082569" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294509" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.009385666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33577982" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -395,6 +405,164 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/company/model/Song.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding>
+            <element signature="e#191#192#0" expanded="true" />
+            <element signature="e#224#225#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+            <element signature="e#281#282#0" expanded="true" />
+            <element signature="e#309#310#0" expanded="true" />
+            <element signature="e#348#349#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
+            <element signature="e#440#441#0" expanded="true" />
+            <element signature="e#480#481#0" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+            <element signature="e#543#544#0" expanded="true" />
+            <element signature="e#573#574#0" expanded="true" />
+            <element signature="e#616#617#0" expanded="true" />
+            <element signature="e#654#655#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/model/Datasource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1360">
+          <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1521406867398" expanded="true" signature="3250:4033" ph="CREATE VIEW IF... " />
+            <marker date="1521406867398" expanded="true" signature="4117:4273" ph="SELECT name,... artist_list" />
+            <marker date="1521406867398" expanded="true" signature="4326:4409" ph="INSERT INTO artists... " />
+            <marker date="1521406867398" expanded="true" signature="4461:4574" ph="INSERT INTO albums... " />
+            <marker date="1521406867398" expanded="true" signature="4625:4722" ph="INSERT INTO songs... " />
+            <marker date="1521406867398" expanded="true" signature="4625:4761" ph="INSERT INTO songs... " />
+            <marker date="1521406867398" expanded="true" signature="4625:4777" ph="INSERT INTO songs... " />
+            <marker date="1521406867398" expanded="true" signature="4625:4778" ph="INSERT INTO songs... " />
+            <marker date="1521406867398" expanded="true" signature="4828:4934" ph="SELECT _id F... " />
+            <marker date="1521406867398" expanded="true" signature="4984:5087" ph="SELECT _id F... " />
+            <marker date="1521406867398" expanded="true" signature="10553:10567" ph="SELECT * FRO... songs" />
+            <marker date="1521406867398" expanded="true" signature="11337:11368" ph="SELECT COUNT... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/model/SongArtist.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="24" column="27" lean-forward="false" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+          <folding>
+            <element signature="e#162#163#0" expanded="true" />
+            <element signature="e#195#196#0" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#291#292#0" expanded="true" />
+            <element signature="e#327#328#0" expanded="true" />
+            <element signature="e#359#360#0" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#508#509#0" expanded="true" />
+            <element signature="e#547#548#0" expanded="true" />
+            <element signature="e#581#582#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/model/Artist.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+          <folding>
+            <element signature="e#145#146#0" expanded="true" />
+            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#206#207#0" expanded="true" />
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
+            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/model/Album.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding>
+            <element signature="e#171#172#0" expanded="true" />
+            <element signature="e#204#205#0" expanded="true" />
+            <element signature="e#232#233#0" expanded="true" />
+            <element signature="e#263#264#0" expanded="true" />
+            <element signature="e#290#291#0" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
+            <element signature="e#470#471#0" expanded="true" />
+            <element signature="e#510#511#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/model/Song.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding>
+            <element signature="e#191#192#0" expanded="true" />
+            <element signature="e#224#225#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+            <element signature="e#281#282#0" expanded="true" />
+            <element signature="e#309#310#0" expanded="true" />
+            <element signature="e#348#349#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
+            <element signature="e#440#441#0" expanded="true" />
+            <element signature="e#480#481#0" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+            <element signature="e#543#544#0" expanded="true" />
+            <element signature="e#573#574#0" expanded="true" />
+            <element signature="e#616#617#0" expanded="true" />
+            <element signature="e#654#655#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/model/Datasource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1394">
+          <caret line="82" column="0" lean-forward="true" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1521406867398" expanded="true" signature="3250:4033" ph="CREATE VIEW IF... " />
+            <marker date="1521406867398" expanded="true" signature="4117:4273" ph="SELECT name,... artist_list" />
+            <marker date="1521406867398" expanded="true" signature="4326:4409" ph="INSERT INTO artists... " />
+            <marker date="1521406867398" expanded="true" signature="4461:4574" ph="INSERT INTO albums... " />
+            <marker date="1521406867398" expanded="true" signature="4625:4722" ph="INSERT INTO songs... " />
+            <marker date="1521406867398" expanded="true" signature="4625:4761" ph="INSERT INTO songs... " />
+            <marker date="1521406867398" expanded="true" signature="4625:4777" ph="INSERT INTO songs... " />
+            <marker date="1521406867398" expanded="true" signature="4625:4778" ph="INSERT INTO songs... " />
+            <marker date="1521406867398" expanded="true" signature="4828:4934" ph="SELECT _id F... " />
+            <marker date="1521406867398" expanded="true" signature="4984:5087" ph="SELECT _id F... " />
+            <marker date="1521406867398" expanded="true" signature="10553:10567" ph="SELECT * FRO... songs" />
+            <marker date="1521406867398" expanded="true" signature="11337:11368" ph="SELECT COUNT... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="697">
@@ -491,10 +659,18 @@
           <caret line="61" column="70" lean-forward="true" selection-start-line="61" selection-start-column="70" selection-end-line="61" selection-end-column="70" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1521054675212" expanded="true" signature="3250:4033" ph="CREATE VIEW IF... " />
-            <marker date="1521054675212" expanded="true" signature="4121:4277" ph="SELECT name,... artist_list" />
-            <marker date="1521054675212" expanded="true" signature="8616:8630" ph="SELECT * FRO... songs" />
-            <marker date="1521054675212" expanded="true" signature="9400:9431" ph="SELECT COUNT... " />
+            <marker date="1521406867398" expanded="true" signature="3250:4033" ph="CREATE VIEW IF... " />
+            <marker date="1521406867398" expanded="true" signature="4117:4273" ph="SELECT name,... artist_list" />
+            <marker date="1521406867398" expanded="true" signature="4326:4409" ph="INSERT INTO artists... " />
+            <marker date="1521406867398" expanded="true" signature="4461:4574" ph="INSERT INTO albums... " />
+            <marker date="1521406867398" expanded="true" signature="4625:4722" ph="INSERT INTO songs... " />
+            <marker date="1521406867398" expanded="true" signature="4625:4761" ph="INSERT INTO songs... " />
+            <marker date="1521406867398" expanded="true" signature="4625:4777" ph="INSERT INTO songs... " />
+            <marker date="1521406867398" expanded="true" signature="4625:4778" ph="INSERT INTO songs... " />
+            <marker date="1521406867398" expanded="true" signature="4828:4934" ph="SELECT _id F... " />
+            <marker date="1521406867398" expanded="true" signature="4984:5087" ph="SELECT _id F... " />
+            <marker date="1521406867398" expanded="true" signature="10553:10567" ph="SELECT * FRO... songs" />
+            <marker date="1521406867398" expanded="true" signature="11337:11368" ph="SELECT COUNT... " />
           </folding>
         </state>
       </provider>
@@ -595,10 +771,18 @@
           <caret line="157" column="38" lean-forward="true" selection-start-line="157" selection-start-column="38" selection-end-line="157" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1521054675212" expanded="true" signature="3250:4033" ph="CREATE VIEW IF... " />
-            <marker date="1521054675212" expanded="true" signature="4121:4277" ph="SELECT name,... artist_list" />
-            <marker date="1521054675212" expanded="true" signature="8616:8630" ph="SELECT * FRO... songs" />
-            <marker date="1521054675212" expanded="true" signature="9400:9431" ph="SELECT COUNT... " />
+            <marker date="1521406867398" expanded="true" signature="3250:4033" ph="CREATE VIEW IF... " />
+            <marker date="1521406867398" expanded="true" signature="4117:4273" ph="SELECT name,... artist_list" />
+            <marker date="1521406867398" expanded="true" signature="4326:4409" ph="INSERT INTO artists... " />
+            <marker date="1521406867398" expanded="true" signature="4461:4574" ph="INSERT INTO albums... " />
+            <marker date="1521406867398" expanded="true" signature="4625:4722" ph="INSERT INTO songs... " />
+            <marker date="1521406867398" expanded="true" signature="4625:4761" ph="INSERT INTO songs... " />
+            <marker date="1521406867398" expanded="true" signature="4625:4777" ph="INSERT INTO songs... " />
+            <marker date="1521406867398" expanded="true" signature="4625:4778" ph="INSERT INTO songs... " />
+            <marker date="1521406867398" expanded="true" signature="4828:4934" ph="SELECT _id F... " />
+            <marker date="1521406867398" expanded="true" signature="4984:5087" ph="SELECT _id F... " />
+            <marker date="1521406867398" expanded="true" signature="10553:10567" ph="SELECT * FRO... songs" />
+            <marker date="1521406867398" expanded="true" signature="11337:11368" ph="SELECT COUNT... " />
           </folding>
         </state>
       </provider>
@@ -679,10 +863,18 @@
           <caret line="139" column="13" lean-forward="false" selection-start-line="139" selection-start-column="13" selection-end-line="139" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1521054675212" expanded="true" signature="3250:4033" ph="CREATE VIEW IF... " />
-            <marker date="1521054675212" expanded="true" signature="4121:4277" ph="SELECT name,... artist_list" />
-            <marker date="1521054675212" expanded="true" signature="8616:8630" ph="SELECT * FRO... songs" />
-            <marker date="1521054675212" expanded="true" signature="9400:9431" ph="SELECT COUNT... " />
+            <marker date="1521406867398" expanded="true" signature="3250:4033" ph="CREATE VIEW IF... " />
+            <marker date="1521406867398" expanded="true" signature="4117:4273" ph="SELECT name,... artist_list" />
+            <marker date="1521406867398" expanded="true" signature="4326:4409" ph="INSERT INTO artists... " />
+            <marker date="1521406867398" expanded="true" signature="4461:4574" ph="INSERT INTO albums... " />
+            <marker date="1521406867398" expanded="true" signature="4625:4722" ph="INSERT INTO songs... " />
+            <marker date="1521406867398" expanded="true" signature="4625:4761" ph="INSERT INTO songs... " />
+            <marker date="1521406867398" expanded="true" signature="4625:4777" ph="INSERT INTO songs... " />
+            <marker date="1521406867398" expanded="true" signature="4625:4778" ph="INSERT INTO songs... " />
+            <marker date="1521406867398" expanded="true" signature="4828:4934" ph="SELECT _id F... " />
+            <marker date="1521406867398" expanded="true" signature="4984:5087" ph="SELECT _id F... " />
+            <marker date="1521406867398" expanded="true" signature="10553:10567" ph="SELECT * FRO... songs" />
+            <marker date="1521406867398" expanded="true" signature="11337:11368" ph="SELECT COUNT... " />
           </folding>
         </state>
       </provider>
@@ -763,10 +955,18 @@
           <caret line="140" column="48" lean-forward="false" selection-start-line="140" selection-start-column="48" selection-end-line="140" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1521054675212" expanded="true" signature="3250:4033" ph="CREATE VIEW IF... " />
-            <marker date="1521054675212" expanded="true" signature="4121:4277" ph="SELECT name,... artist_list" />
-            <marker date="1521054675212" expanded="true" signature="8616:8630" ph="SELECT * FRO... songs" />
-            <marker date="1521054675212" expanded="true" signature="9400:9431" ph="SELECT COUNT... " />
+            <marker date="1521406867398" expanded="true" signature="3250:4033" ph="CREATE VIEW IF... " />
+            <marker date="1521406867398" expanded="true" signature="4117:4273" ph="SELECT name,... artist_list" />
+            <marker date="1521406867398" expanded="true" signature="4326:4409" ph="INSERT INTO artists... " />
+            <marker date="1521406867398" expanded="true" signature="4461:4574" ph="INSERT INTO albums... " />
+            <marker date="1521406867398" expanded="true" signature="4625:4722" ph="INSERT INTO songs... " />
+            <marker date="1521406867398" expanded="true" signature="4625:4761" ph="INSERT INTO songs... " />
+            <marker date="1521406867398" expanded="true" signature="4625:4777" ph="INSERT INTO songs... " />
+            <marker date="1521406867398" expanded="true" signature="4625:4778" ph="INSERT INTO songs... " />
+            <marker date="1521406867398" expanded="true" signature="4828:4934" ph="SELECT _id F... " />
+            <marker date="1521406867398" expanded="true" signature="4984:5087" ph="SELECT _id F... " />
+            <marker date="1521406867398" expanded="true" signature="10553:10567" ph="SELECT * FRO... songs" />
+            <marker date="1521406867398" expanded="true" signature="11337:11368" ph="SELECT COUNT... " />
           </folding>
         </state>
       </provider>
@@ -847,10 +1047,18 @@
           <caret line="140" column="48" lean-forward="false" selection-start-line="140" selection-start-column="48" selection-end-line="140" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1521054675212" expanded="true" signature="3250:4033" ph="CREATE VIEW IF... " />
-            <marker date="1521054675212" expanded="true" signature="4121:4277" ph="SELECT name,... artist_list" />
-            <marker date="1521054675212" expanded="true" signature="8616:8630" ph="SELECT * FRO... songs" />
-            <marker date="1521054675212" expanded="true" signature="9400:9431" ph="SELECT COUNT... " />
+            <marker date="1521406867398" expanded="true" signature="3250:4033" ph="CREATE VIEW IF... " />
+            <marker date="1521406867398" expanded="true" signature="4117:4273" ph="SELECT name,... artist_list" />
+            <marker date="1521406867398" expanded="true" signature="4326:4409" ph="INSERT INTO artists... " />
+            <marker date="1521406867398" expanded="true" signature="4461:4574" ph="INSERT INTO albums... " />
+            <marker date="1521406867398" expanded="true" signature="4625:4722" ph="INSERT INTO songs... " />
+            <marker date="1521406867398" expanded="true" signature="4625:4761" ph="INSERT INTO songs... " />
+            <marker date="1521406867398" expanded="true" signature="4625:4777" ph="INSERT INTO songs... " />
+            <marker date="1521406867398" expanded="true" signature="4625:4778" ph="INSERT INTO songs... " />
+            <marker date="1521406867398" expanded="true" signature="4828:4934" ph="SELECT _id F... " />
+            <marker date="1521406867398" expanded="true" signature="4984:5087" ph="SELECT _id F... " />
+            <marker date="1521406867398" expanded="true" signature="10553:10567" ph="SELECT * FRO... songs" />
+            <marker date="1521406867398" expanded="true" signature="11337:11368" ph="SELECT COUNT... " />
           </folding>
         </state>
       </provider>
@@ -871,10 +1079,18 @@
           <caret line="67" column="0" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1521054675212" expanded="true" signature="3250:4033" ph="CREATE VIEW IF... " />
-            <marker date="1521054675212" expanded="true" signature="4121:4277" ph="SELECT name,... artist_list" />
-            <marker date="1521054675212" expanded="true" signature="8616:8630" ph="SELECT * FRO... songs" />
-            <marker date="1521054675212" expanded="true" signature="9400:9431" ph="SELECT COUNT... " />
+            <marker date="1521406867398" expanded="true" signature="3250:4033" ph="CREATE VIEW IF... " />
+            <marker date="1521406867398" expanded="true" signature="4117:4273" ph="SELECT name,... artist_list" />
+            <marker date="1521406867398" expanded="true" signature="4326:4409" ph="INSERT INTO artists... " />
+            <marker date="1521406867398" expanded="true" signature="4461:4574" ph="INSERT INTO albums... " />
+            <marker date="1521406867398" expanded="true" signature="4625:4722" ph="INSERT INTO songs... " />
+            <marker date="1521406867398" expanded="true" signature="4625:4761" ph="INSERT INTO songs... " />
+            <marker date="1521406867398" expanded="true" signature="4625:4777" ph="INSERT INTO songs... " />
+            <marker date="1521406867398" expanded="true" signature="4625:4778" ph="INSERT INTO songs... " />
+            <marker date="1521406867398" expanded="true" signature="4828:4934" ph="SELECT _id F... " />
+            <marker date="1521406867398" expanded="true" signature="4984:5087" ph="SELECT _id F... " />
+            <marker date="1521406867398" expanded="true" signature="10553:10567" ph="SELECT * FRO... songs" />
+            <marker date="1521406867398" expanded="true" signature="11337:11368" ph="SELECT COUNT... " />
           </folding>
         </state>
       </provider>
@@ -1025,6 +1241,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://D:/Java/sqlite-jdbc-3.21.0.jar!/org/sqlite/jdbc3/JDBC3Statement.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/model/SongArtist.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -1045,34 +1268,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Java/sqlite-jdbc-3.21.0.jar!/org/sqlite/jdbc3/JDBC3Statement.class">
+    <entry file="jar://C:/Program Files/Java/jdk-9/lib/src.zip!/java.sql/java/sql/Connection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+        <state relative-caret-position="683">
+          <caret line="138" column="22" lean-forward="false" selection-start-line="138" selection-start-column="22" selection-end-line="138" selection-end-column="22" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11">
-          <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/model/Datasource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="74" column="4" lean-forward="false" selection-start-line="74" selection-start-column="4" selection-end-line="74" selection-end-column="4" />
+        <state relative-caret-position="118">
+          <caret line="380" column="32" lean-forward="false" selection-start-line="380" selection-start-column="32" selection-end-line="380" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1521054675212" expanded="true" signature="3250:4033" ph="CREATE VIEW IF... " />
-            <marker date="1521054675212" expanded="true" signature="4121:4277" ph="SELECT name,... artist_list" />
-            <marker date="1521054675212" expanded="true" signature="8616:8630" ph="SELECT * FRO... songs" />
-            <marker date="1521054675212" expanded="true" signature="9400:9431" ph="SELECT COUNT... " />
+            <marker date="1521406867398" expanded="true" signature="3250:4033" ph="CREATE VIEW IF... " />
+            <marker date="1521406867398" expanded="true" signature="4117:4273" ph="SELECT name,... artist_list" />
+            <marker date="1521406867398" expanded="true" signature="4326:4409" ph="INSERT INTO artists... " />
+            <marker date="1521406867398" expanded="true" signature="4461:4574" ph="INSERT INTO albums... " />
+            <marker date="1521406867398" expanded="true" signature="4625:4722" ph="INSERT INTO songs... " />
+            <marker date="1521406867398" expanded="true" signature="4625:4761" ph="INSERT INTO songs... " />
+            <marker date="1521406867398" expanded="true" signature="4625:4777" ph="INSERT INTO songs... " />
+            <marker date="1521406867398" expanded="true" signature="4625:4778" ph="INSERT INTO songs... " />
+            <marker date="1521406867398" expanded="true" signature="4828:4934" ph="SELECT _id F... " />
+            <marker date="1521406867398" expanded="true" signature="4984:5087" ph="SELECT _id F... " />
+            <marker date="1521406867398" expanded="true" signature="10553:10567" ph="SELECT * FRO... songs" />
+            <marker date="1521406867398" expanded="true" signature="11337:11368" ph="SELECT COUNT... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="80" column="0" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
